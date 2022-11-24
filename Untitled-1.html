@@ -1,0 +1,178 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <style>
+        .bg-mycolor{
+            background: rgb(150, 201, 150);
+        }
+        .mycolor{
+            color: rgb(27, 209, 103);!important
+        }
+        .bg{
+            background:  rgb(27, 209, 103);!important
+        }
+        .a{
+            max-height: 650px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-flude">
+        <div class="row top bg-mycolor py-1  text-center">
+            <div class="col-sm-4" >
+                <i class="fa-solid fa-phone fa-spin"></i><a href="tel:+917860593291" style="text-decoration: none; color:white">+917860593291</a>
+              </div>
+              <div class="col-sm-4">
+                  <i class="fa-solid fa-envelope fa-spin"></i> <a href="mailto:vikasmaurya773389@gmail.com" style="text-decoration: none; color:white">vikasmaurya773389@gmail.com</a> 
+              </div>
+              
+              <div class="col-sm-4 fs-4 ">
+                 <a href="#" style="text-decoration: none; color: red;"> <i class="fa-brands fa-youtube px-3"></i></a>
+                 <a href="#" style="text-decoration: none; color: green;"> <i class="fa-brands fa-whatsapp px-3 "></i></a>
+                  <a href="#" style="text-decoration: none; color: rgb(206, 65, 201);"><i class="fa-brands fa-instagram px-3"></i></a>
+                 <a href="#" style="text-decoration: none; color: rgb(4, 174, 241);"> <i class="fa-brands fa-twitter px-3"></i></a>
+              </div>
+        </div>
+        <div class="row header pt-2 ">
+            <div class="col-sm-3 fs-3  py-4 text-center">
+                Desire <b class="mycolor">Cart <i class="fa-solid fa-cart-shopping"></i></b>
+            </div>
+            <div class="col-sm-6 pt-2 ">
+                <div class="input-group py-3">
+                   
+                    <input type="search" placeholder="Search Items Here" class="form-control">
+                    <i class="input-group-text bg text-light"><i class="fa-solid fa-search "></i></i>
+    
+                </div>
+            </div>
+            <div class="col-sm-3 fs-3 pt-2  text-center mycolor "><i class="fa-solid fa-cart-shopping py-4 "></i></div>
+        </div>
+        <div class="row menu bg-dark sticky-top">
+
+           
+            <div class="col-sm-3 fs-3 pt-2 text-center">
+                 <B class="mycolor">DESIRECART</B>
+            </div>
+            <div class="col-sm-9">
+
+                 <!--start menu-->
+                 <nav class="navbar navbar-expand-lg bg-DARK ">
+                    <div class="container-fluid ">
+                      
+                      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                        <div class="navbar-nav text-center">
+                          <a class="nav-link text-light fw-bold" aria-current="page" href="try.html"><i class="fa-solid fa-house"></i> HOME</a>
+                          
+
+
+
+                          <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle text-light fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-brands fa-product-hunt"></i>  PRODUCT
+                            </a>
+                            <ul class="dropdown-menu bg-DARK">
+                              <li><a class="dropdown-item text-primary fw-bold" href="mens.html" target="blank">Men's Wear </a></li>
+                              <li><a class="dropdown-item text-primary fw-bold" href="women.html" target="blank">Women's Wear</a></li>
+                              
+                              <li><a class="dropdown-item text-primary fw-bold" href="kids.html" target="blank">Kid's Wear</a></li>
+                            </ul>
+                          </li>
+
+
+
+                          <a class="nav-link text-light fw-bold" href="#"><i class="fa-solid fa-cart-shopping"></i> MY ORDERS</a>
+                          <a class="nav-link text-light fw-bold" href="#"><i class="fa-solid fa-user"></i> MY PROFILE</a>
+                          <a class="nav-link text-light fw-bold" href="#"><i class="fa-solid fa-phone"></i> CUSTOMER SUPPORT </a>
+                          <a class="nav-link text-light fw-bold" href="signup.html" target="_blank"><i class="fa-regular fa-user"></i> SIGN-UP</a>
+                          <a class="nav-link text-light fw-bold  btn btn-outline" data-bs-toggle="modal" data-bs-target="#box" href="login.html" target="blank"><i class="fa-solid fa-key"></i> SIGN-IN</a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                 <!--end menu-->
+            </div>
+            
+        </div>
+
+<!--write here your code-->
+ <!--start modal-->
+ <!--<b class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#box">LOGIN</b>-->
+  
+ <!-- Modal -->
+ <div class="modal fade" id="box" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+      
+       <div class="modal-body">
+           <b class="text-danger" data-bs-dismiss="modal"><i class="fa-solid fa-circle-xmark float-end"></i></b>
+         <p class="text-center fs-3">LOGIN <b class="text-success"> HERE <i class="fa-solid fa-lock"></i>
+         </b></p>
+        
+         <div class="input-group">
+           <span class="input-group-text">USERID</span>
+           <input type="email" placeholder="Enter your user ID....." class="form-control">
+
+         </div>
+         
+         <div class="input-group mt-3">
+           <span class="input-group-text">PASSWORD</span>
+           <input type="PASSWORD" placeholder="Enter your PASSWORD...." class="form-control ">
+
+         </div>
+         
+           <input type="button" value="LOGIN" class="mt-3">
+
+         </div>
+       </div>
+       
+     </div>
+   </div>
+ </div>
+   <!--end modal-->
+
+<!--write here your code-->
+
+        
+        <div class="row footer bg-DARK text-light py-5">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-3">
+            Desire<b class="mycolor">Cart <i class="fa-solid fa-cart-shopping"></i></b>
+            <p>Address:Akbarpur Ambedkar Nagar U.P 224151</p>
+            <p>Phone:+917860593291,2</p>
+            <p>Email:vikasmaurya773389@gmail.com</p>
+          </div>
+          <div class="col-sm-2">
+            <b>Information</b>
+            <p>About Us</p>
+            <p>Checkout</p>
+            <p>Contact</p>
+          </div>
+          <div class="col-sm-2">
+            <b>My Account</b>
+            <p>My Account</p>
+            <p>Contact</p>
+            <p>Shopping Cart</p>
+          </div>
+          <div class="col-sm-3">
+            <b>Join Our Newslatter Now</b>
+            <p>Get E-mail updates about our latest shop and special offers.</p>
+            <div class="input-group">
+              
+              <input type="email" placeholder="Enter Your Mail" class="form-control">
+              <div class="input-group-text BG text-light">SUBSCRIBE</div>
+            </div>
+          </div>
+          <div class="col-sm-1"></div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
